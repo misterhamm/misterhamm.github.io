@@ -2,6 +2,25 @@ html {
   background-color: #F7F2F5;
 }
 
+nav {
+    text-align: center;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.links > li {
+    display: inline-block;
+    list-style: none;
+    color: #0166A7;
+}
+
+.links > li:hover {
+    cursor: pointer;
+    color: black;
+}
+
 body {
   color: #222222;
   font-size: 1em;
