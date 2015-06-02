@@ -1,0 +1,124 @@
+html {
+  background-color: #F7F2F5;
+}
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family:"Ubuntu", "Helvetica Neue", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(10, 68, 127);
+  font-weight:bold;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: #F7F2F5;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('peeling.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  }
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Indie Flower", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+}
+
+
+.introduction-section,
+.family-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  }
+
+.questions-section > p {
+  margin-top: -1em;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.introduction-section > p,
+.family-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.familytag {
+  color: gray;
+}
+
+.questions-section > h2 {
+  font-family: "Indie Flower", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+  color: #0166A7;
+}
+
+section > h2 {
+  color: #A76201;
+}
+
+.content-footer {
+  background-color: #021126;
+  margin-top: 5em;
+  padding: 4em 0;
+}
+
+ .content-footer > p {
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 2em 0;
+    }
+    .social > li {
+        display: inherit;
+    }
+}
+
