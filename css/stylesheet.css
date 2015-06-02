@@ -27,7 +27,7 @@ a:hover {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('peeling.jpg');
+  background-image: url('../images/peeling.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   }
