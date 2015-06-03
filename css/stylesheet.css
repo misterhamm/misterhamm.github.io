@@ -173,6 +173,10 @@ h2 {
     height: auto;
 }
 
+.social a{
+    padding: 0;
+}
+
 .introduction > p,
 .family > p,
 .content-footer > p {
