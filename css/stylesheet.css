@@ -69,15 +69,40 @@ a:hover {
   letter-spacing: -0.02em;
 }
 
-
 .introduction-section,
 .family-section,
 .questions-section {
-  max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 6em;
+    max-width: 50%;
+}
+
+.introduction-section,
+.family-section,
+.questions-section,
+.projects{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
   }
+
+.startup {
+    display: inline-block;
+}
+
+.startup img{
+    width: 50%;
+    height: auto;
+}
+
+.nyt {
+    position: relative;
+}
+
+.nyt img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left:
+}
 
 .questions-section > p {
   margin-top: -1em;
