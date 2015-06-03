@@ -57,14 +57,13 @@ a:hover {
 
 .masthead-intro {
   margin-bottom: 0.1em;
-  font-family: "Indie Flower", Georgia, serif;
+  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
   font-size: 2em;
 }
 
 .masthead-heading {
   margin-top: -0.2em;
-  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-family: "Slabo 27px", Georgia, serif;
   font-size: 6em;
   letter-spacing: -0.02em;
 }
@@ -113,6 +112,7 @@ a:hover {
     height: auto;
     position: absolute;
     left: 59.4rem;
+    top: 2rem;
 }
 /*
 .questions > p {
@@ -164,12 +164,11 @@ a:hover {
 
 .content-footer {
     background-color: #021126;
-    margin-top: 50em;
     padding: 4em 0;
 }
 
  .content-footer > p {
-  color: white;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 500px) {
