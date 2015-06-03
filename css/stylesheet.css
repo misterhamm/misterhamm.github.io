@@ -37,7 +37,7 @@ a:link {
 }
 
 a:hover {
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 .content-footer,
@@ -92,27 +92,28 @@ a:hover {
     background-color: #021126;
     color: #ffffff;
     width: 100%;
+    overflow: auto;
 }
 
 .startup img{
     width: 50%;
     height: auto;
-    padding-top: 2em;
+    padding: 2em;
+    float: left;
 }
 
 .nyt {
     position: relative;
     background-color: #222222;
-    height: 55rem;
     color: #ffffff;
+    overflow: auto;
 }
 
 .nyt img {
     width: 50%;
     height: auto;
-    position: absolute;
-    left: 59.4rem;
-    top: 2rem;
+    float: right;
+    padding: 2rem;
 }
 /*
 .questions > p {
