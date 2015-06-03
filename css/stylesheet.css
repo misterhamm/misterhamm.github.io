@@ -21,22 +21,30 @@ body {
   font-family:"Ubuntu", "Helvetica Neue", sans-serif;
 }
 
-a {
+a,
+a:visited{
     text-decoration: none;
     color: #0166A7;
     padding: 0 6rem;
     font-size: 1.2rem;
 }
 
-a:hover {
-  text-decoration:none;
-  cursor: pointer;
-  color: black;
+a:hover,
+a:visited:hover{
+    text-decoration:none;
+    cursor: pointer;
+    color: #222222;
+    transition: color 0.5s ease;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #0166A7;
+a:active,
+a:visited:active{
+    color: red:
+}
+
+h2 {
+    font-family: "Slabo 27px", Georgia, serif;
+    font-weight: 100;
 }
 
 .content-footer,
