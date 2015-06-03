@@ -1,7 +1,7 @@
 
 nav {
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -12,16 +12,7 @@ nav {
 }
 
 .links > li {
-    display: inline-block;
-    list-style: none;
-    color: #0166A7;
-    padding: 0 6rem;
-    font-size: 1.2rem;
-}
-
-.links > li:hover {
-    cursor: pointer;
-    color: black;
+    display: inline-block
 }
 
 body {
@@ -30,14 +21,22 @@ body {
   font-family:"Ubuntu", "Helvetica Neue", sans-serif;
 }
 
-a:link {
-  text-decoration: none;
-  color: rgb(10, 68, 127);
-  font-weight:bold;
+a {
+    text-decoration: none;
+    color: #0166A7;
+    padding: 0 6rem;
+    font-size: 1.2rem;
 }
 
 a:hover {
   text-decoration:none;
+  cursor: pointer;
+  color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0166A7;
 }
 
 .content-footer,
@@ -81,6 +80,10 @@ a:hover {
     margin-right: auto;
     margin-top: 6em;
   }
+
+.projects {
+    max-width: 100%;
+}
 
 .projects >h1 {
     width: 50%;
