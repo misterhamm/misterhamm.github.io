@@ -69,15 +69,15 @@ a:hover {
   letter-spacing: -0.02em;
 }
 
-.introduction-section,
-.family-section,
-.questions-section {
+.introduction,
+.family,
+.questions {
     max-width: 50%;
 }
 
-.introduction-section,
-.family-section,
-.questions-section,
+.introduction,
+.family,
+.questions,
 .projects{
     margin-left: auto;
     margin-right: auto;
