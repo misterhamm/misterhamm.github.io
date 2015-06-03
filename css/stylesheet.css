@@ -37,11 +37,6 @@ a:visited:hover{
     transition: color 0.5s ease;
 }
 
-a:active,
-a:visited:active{
-    color: red:
-}
-
 h2 {
     font-family: "Slabo 27px", Georgia, serif;
     font-weight: 100;
@@ -116,13 +111,23 @@ h2 {
     float: left;
 }
 
+.startup > h2 {
+    margin-left: 50%;
+    margin-top: 10%;
+    text-align: center;
+    color: #e57736;
+    font-size: 2rem;
+}
+
 .startup-desc {
-    padding-left: 75%;
-    padding-top: 3rem;
+    margin-left: 62.5%;
+    max-width: 25%;
+    padding-top: 3rem auto;
+    font-size: 1.2rem;
 }
 
 .nyt {
-    background-color: #222222;
+    background-color: #13283b;
     color: #ffffff;
     overflow: auto;
 }
@@ -132,6 +137,21 @@ h2 {
     height: auto;
     float: right;
     padding: 2rem;
+}
+
+.nyt > h2 {
+    margin-right: 50%;
+    margin-top: 17%;
+    text-align: center;
+    color: #e57736;
+    font-size: 2rem;
+}
+
+.nyt-desc {
+    margin-left: 12.5%;
+    max-width: 25%;
+    padding-top: 3rem auto;
+    font-size: 1.2rem;
 }
 /*
 .questions > p {
