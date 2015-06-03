@@ -51,8 +51,8 @@ a:hover {
 }
 
 .masthead {
-  padding: 6em 0;
-  background-image: url('../images/peeling.jpg');
+  padding: 6em 0 14rem;
+  background-image: url('../images/grand_rapids.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   }
