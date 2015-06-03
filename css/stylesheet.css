@@ -104,13 +104,15 @@ a:hover {
 .nyt {
     position: relative;
     background-color: #222222;
+    height: 55rem;
+    color: #ffffff;
 }
 
 .nyt img {
     width: 50%;
     height: auto;
     position: absolute;
-    left: 950px;
+    left: 59.4rem;
 }
 /*
 .questions > p {
