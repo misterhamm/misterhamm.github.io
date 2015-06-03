@@ -10,10 +10,16 @@ nav {
     z-index: 9999;
 }
 
+.links {
+    padding: 0;
+}
+
 .links > li {
     display: inline-block;
     list-style: none;
     color: #0166A7;
+    padding: 0 6rem;
+    font-size: 1.2rem;
 }
 
 .links > li:hover {
