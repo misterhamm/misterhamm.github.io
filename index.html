@@ -11,21 +11,42 @@
 <body>
 
 <nav class="navbar">
-<div class="content">
+   <div class="identifier">
+       <img src="images/softwaredev-icon.svg" class="logo-header">
+       <ul class="identifier-text">
+           <li class="identifier-name">Chris Hamm</li>
+           <li class="identifier-tag">Front End Web Developer</li>
+       </ul>
+   </div>
     <ul class="links">
-        <li><a href="#top">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="nav-link"><a href="#top">Home</a></li>
+        <li class="nav-link"><a href="#projects">Projects</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
     </ul>
-</div>
 </nav>
 
- <header class="masthead">
-  <p class="masthead-intro">
-  <em>hey, i'm</em>
-  </p>
-  <h1 class="masthead-heading">Chris</h1>
-</header>
+ <div class="masthead">
+     <div class="masthead-text">
+      <p class="masthead-intro">
+      Clean and creative websites and web apps
+      </p>
+    </div>
+</div>
+
+<section class="sub-nav">
+    <table class="nav-table">
+        <tr class="table-row row-one">
+            <td class="cell"><img src="images/startup_clone.png" alt="Startup Clone Project Image"></td>
+            <td class="cell">Two</td>
+            <td class="cell">Three</td>
+        </tr>
+        <tr class="table-row row-two">
+            <td class="cell">One</td>
+            <td class="cell">Two</td>
+            <td class="cell">Three</td>
+        </tr>
+    </table>
+</section>
 
 <section class="introduction">
   <h1>Who Is This Guy?</h1>
@@ -34,11 +55,12 @@
   </p>
 </section>
 
-    <section class="projects"><a name="projects"></a>
-    <h1>Projects</h1>
+<section class="projects" id="projects">
+
     <div class="startup">
+       <h1 class="project-header">Projects</h1>
         <img src="images/startup_clone.png" alt="Startup Clone Project Image">
-        <h2>Startup Landing Page Clone</h2>
+        <h2 class="project-title">Startup Landing Page Clone</h2>
         <p class="startup-desc">For this project I duplicated the clean design of the Karma landing page.  This is a style that works for almost every business.  Let me put something like this together for you!</p>
     </div>
     <div class="nyt">
@@ -84,7 +106,7 @@
   </p>
 </div>
 -->
-<footer class="content-footer"><a name="contact"></a>
+<footer class="content-footer" id="contact">
   <p>
     need to contact me?
   </p>
