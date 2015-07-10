@@ -86,21 +86,81 @@ nav {
 .masthead-intro {
   font-family: "Ubuntu", "Helvetica Neue", sans-serif;
   font-size: 3em;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.5);
     width: 55%;
     margin: 0 auto;
     padding: 3rem 2rem;
-
 }
 
 .nav-table {
-    margin: 4rem auto;
-    width: 55%;
+    list-style: none;
+    text-align: center
 }
 
+.project-square {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.49);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.49);
+}
 
-.cell {
-    padding: 2rem;
+.project-wrapper {
+    color: #13283b;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1rem;
+    display: none;
+}
+
+.nav-project-text {
+    font-size: 2rem;
+    margin-top: 4.5rem;
+}
+
+.nav-project-desc {
+    font-size: 1.5rem;
+}
+
+.row-2 {
+    padding-top: 3rem;
+}
+
+.api {
+    background-image: url(../images/videogame_square.png);
+    background-size: cover;
+}
+
+.quiz {
+   background-image: url(../images/quiz_square.png);
+    background-size: cover;
+}
+
+.hot-cold {
+    background-image: url(../images/list_minder_square.png);
+    background-size: cover;
+}
+
+.about {
+    background-image: url(../images/me_square.jpg);
+    background-size: cover;
+}
+
+.resume {
+    background-image: url(../images/resume_square.png);
+    background-size: cover;
+}
+
+.contact {
+    background-image: url(../images/contact_square.jpg);
+    background-size: cover;
 }
 
 .introduction,
@@ -110,12 +170,13 @@ nav {
     margin: 0 auto;
     display: none;
 }
-
+/*
 .introduction h1 {
     font-size: 3rem;
     margin: 0;
     color: #0166A7;;
 }
+*/
 
 .projects {
     max-width: 100%;
