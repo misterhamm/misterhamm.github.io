@@ -1,20 +1,21 @@
 body {
-  color: #222222;
-  font-family:"Ubuntu", "Helvetica Neue", sans-serif;
+    color: #222222;
+    font-family:"Ubuntu", "Helvetica Neue", sans-serif;
+    font-weight: 100;
 }
 
-a,
-a:visited{
+nav a,
+nav a:visited{
     text-decoration: none;
-    color: #0166A7;
+    color: #FFF;
     padding: 0;
 }
 
-a:hover,
-a:visited:hover{
+nav a:hover,
+nav a:visited:hover{
     text-decoration:none;
     cursor: pointer;
-    color: #FFF;
+    color: #0166A7;
     transition: color 0.8s ease;
 }
 
@@ -92,9 +93,12 @@ nav {
     padding: 3rem 2rem;
 }
 
+.sub-nav {
+    margin: 3rem 0;
+}
 .nav-table {
     list-style: none;
-    text-align: center
+    text-align: center;
 }
 
 .project-square {
@@ -164,22 +168,20 @@ nav {
     background-size: cover;
 }
 
-.about-me,
-.family,
-.questions {
-    max-width: 50%;
-    margin: 0 auto;
-}
 
-.about-me h1 {
-    font-size: 3rem;
-    margin: 0;
-    color: #0166A7;;
-}
 
 
 .projects {
     max-width: 100%;
+    letter-spacing: 0.05em;
+}
+
+.projects a,
+.projects a:visited {
+    text-decoration: none;
+    font-family: "Slabo 27px", Georgia, serif;
+    font-weight: 100;
+    color: #e57736;
 }
 
 .project-header {
@@ -211,25 +213,35 @@ nav {
     float: left;
 }
 
-.left-project > h2 {
+.project-text-left {
+    width: 50%;
     margin-left: 50%;
-    margin-top: 10%;
+}
+
+.left-project  h2 {
+    margin: 20% auto 2rem auto;
     text-align: center;
     color: #e57736;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .left-desc {
-    margin-left: 62.5%;
-    max-width: 25%;
+    margin: 0 auto;
+    max-width: 50%;
     padding-top: 3rem auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-align: center;
 }
 
 .right-project {
     background-color: #13283b;
     color: #ffffff;
     overflow: auto;
+}
+
+.project-text-right {
+    width: 50%;
 }
 
 .right-project img {
@@ -239,24 +251,87 @@ nav {
     padding: 2rem;
 }
 
-.right-project > h2 {
-    margin-right: 50%;
-    margin-top: 17%;
+.right-project  h2 {
+    margin: 20% auto 2rem auto;
     text-align: center;
     color: #e57736;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .right-desc {
-    margin-left: 12.5%;
-    max-width: 25%;
+    margin: 0 auto;
+    max-width: 50%;
     padding-top: 3rem auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* About-Me Section*/
+.about-me {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-me a,
+.about-me a:visited {
+    text-decoration: none;
+    color: #0166A7;
+    font-weight: bold;
+}
+
+.about-me a:hover,
+.about-me a:visited:hover {
+    color: #e57736;
+    transition: color 0.5s ease;
+}
+
+.about-me h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #0166A7;;
+}
+
+.info {
+    margin: 5rem 0 5rem 18%;
+    width: 80%;
+}
+
+.about-me-img {
+    border-radius: 100%;
+    height: 15rem;
+    margin: 0;
+    float: left;
+}
+
+.intro-text {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.familytag {
+    color: gray;
+}
+
+.questions > h2 {
+    font-family: "Indie Flower", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+    color: #A76201;
+}
+
+
+.family,
+.questions{
+    margin-top: 2rem;
 }
 
 .questions > p {
   margin-top: -1em;
 }
+
+/* Contact Footer */
 .social {
   padding: 0;
   list-style: none;
@@ -272,30 +347,14 @@ nav {
     height: auto;
 }
 
-.social a{
+.social a {
     padding: 0;
 }
 
-.introduction > p,
-.family > p,
 .content-footer > p {
   font-weight: 300;
   letter-spacing: 0.05em;
 }
-
-/*.familytag {
-    color: gray;
-}
-
-.family > h2,
-.questions > h2 {
-    font-family: "Indie Flower", Georgia, serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
-    color: #A76201;
-}
-*/
 
 .content-footer {
     background-color: #021126;
