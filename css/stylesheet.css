@@ -164,20 +164,19 @@ nav {
     background-size: cover;
 }
 
-.introduction,
+.about-me,
 .family,
 .questions {
     max-width: 50%;
     margin: 0 auto;
-    display: none;
 }
-/*
-.introduction h1 {
+
+.about-me h1 {
     font-size: 3rem;
     margin: 0;
     color: #0166A7;;
 }
-*/
+
 
 .projects {
     max-width: 100%;
@@ -198,21 +197,21 @@ nav {
     overflow: auto
 }
 
-.startup {
+.left-project {
     background-color: #021126;
     color: #ffffff;
     width: 100%;
     overflow: auto;
 }
 
-.startup img{
+.left-project img{
     width: 50%;
     height: auto;
     padding: 2em;
     float: left;
 }
 
-.startup > h2 {
+.left-project > h2 {
     margin-left: 50%;
     margin-top: 10%;
     text-align: center;
@@ -220,27 +219,27 @@ nav {
     font-size: 2rem;
 }
 
-.startup-desc {
+.left-desc {
     margin-left: 62.5%;
     max-width: 25%;
     padding-top: 3rem auto;
     font-size: 1.2rem;
 }
 
-.nyt {
+.right-project {
     background-color: #13283b;
     color: #ffffff;
     overflow: auto;
 }
 
-.nyt img {
+.right-project img {
     width: 50%;
     height: auto;
     float: right;
     padding: 2rem;
 }
 
-.nyt > h2 {
+.right-project > h2 {
     margin-right: 50%;
     margin-top: 17%;
     text-align: center;
@@ -248,17 +247,16 @@ nav {
     font-size: 2rem;
 }
 
-.nyt-desc {
+.right-desc {
     margin-left: 12.5%;
     max-width: 25%;
     padding-top: 3rem auto;
     font-size: 1.2rem;
 }
-/*
+
 .questions > p {
   margin-top: -1em;
 }
-*/
 .social {
   padding: 0;
   list-style: none;
