@@ -4,19 +4,19 @@ body {
     font-weight: 100;
 }
 
-nav a,
-nav a:visited{
+.links a,
+.links a:visited{
     text-decoration: none;
     color: #FFF;
     padding: 0;
+    transition: color 0.8s ease;
 }
 
-nav a:hover,
-nav a:visited:hover{
+.links a:hover,
+.links a:visited:hover{
     text-decoration:none;
     cursor: pointer;
     color: #0166A7;
-    transition: color 0.8s ease;
 }
 
 nav {
@@ -28,7 +28,6 @@ nav {
     -webkit-box-shadow: 0px 10px 17px -4px rgba(0,0,0,1);
     -moz-box-shadow: 0px 10px 17px -4px rgba(0,0,0,1);
     box-shadow: 0px 10px 25px -10px rgba(0,0,0,1);
-
 }
 
 .logo-header {
@@ -46,6 +45,12 @@ nav {
     padding: 0;
     margin: 1rem 0;
     color: #FFF;
+}
+
+.identifier-link,
+.identifier-link:visited {
+    text-decoration: none;
+    color: #fff;
 }
 
 .identifier-name {
@@ -296,12 +301,12 @@ nav {
     text-decoration: none;
     color: #0166A7;
     font-weight: bold;
+    transition: color 0.5s ease;
 }
 
 .about-me a:hover,
 .about-me a:visited:hover {
     color: #e57736;
-    transition: color 0.5s ease;
 }
 
 .about-me h2 {
