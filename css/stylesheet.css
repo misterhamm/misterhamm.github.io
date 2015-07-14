@@ -373,12 +373,12 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
+    transition: width 0.2s linear;
 }
 
 .social img:hover {
     width: 5rem;
     height: auto;
-    transition: width 0.2s linear;
 }
 
 .social p {
@@ -391,12 +391,13 @@ nav {
     padding: 0;
     color: #FFF;
     text-decoration: none;
-    transition: color 0.3s linear;
+
 }
 
 .social a:hover,
 .social a:visited:hover {
     color: #e57736;
+    transition: color 0.3s linear;
 }
 
 .introduction > p,
