@@ -387,16 +387,17 @@ nav {
 }
 
 .social a,
-.social a:visited{
+.social a:visited {
     padding: 0;
     color: #FFF;
     text-decoration: none;
+    transition: color 0.3s linear;
 }
 
 .social a:hover,
-social a:visited:hover {
+.social a:visited:hover {
+    transition-delay: 0s;
     color: #e57736;
-    transition: color 0.5s ease;
 }
 
 .introduction > p,
@@ -412,7 +413,8 @@ social a:visited:hover {
 }
 
  .content-footer > p {
-  color: #ffffff;
+     color: #ffffff;
+     font-size: 1.5em;
 }
 
 @media only screen and (max-width: 500px) {
