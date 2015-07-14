@@ -73,7 +73,7 @@ nav {
 
 .masthead {
     height: 40rem;
-    background-image: url('../images/grand_rapids.jpg');
+    background-image: url('../images/Optimized-grand_rapids.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -396,7 +396,6 @@ nav {
 
 .social a:hover,
 .social a:visited:hover {
-    transition-delay: 0s;
     color: #e57736;
 }
 
