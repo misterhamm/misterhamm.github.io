@@ -7,6 +7,9 @@ $(document).ready(function() {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  _gaq.push(['_setSiteSpeedSampleRate', 5]);
+  _gaq.push(['_trackPageview']);
+
   ga('create', 'UA-65515642-1', 'auto');
   ga('send', 'pageview');
 
